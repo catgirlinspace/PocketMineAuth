@@ -12,6 +12,9 @@ api:
 main: Dog2puppy\PocketMineAuth\Main
 commands: 
   login:
-     description: "Create a PocketMineAuth Account. "
+     description: "Login to a PocketMineAuth Account. "
      usage: "/login <password>"
+  register:
+    description: "Create a PocketMineAuth Account. Add [email] paramater for password resets. "
+    usage: "/register <password> <confirm password> [email]"
 #  permissions:
