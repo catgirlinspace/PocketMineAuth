@@ -1,0 +1,17 @@
+name: PocketMineAuth
+author: Dog2puppy
+version: "1.0.0"
+api:
+- 2.0.0
+- 2.1.0
+- 3.0.0
+- 3.0.0-ALPHA1
+- 3.0.0-ALPHA2
+- 3.0.0-ALPHA3
+- 3.0.0-ALPHA4
+main: Dog2puppy\PocketMineAuth\Main
+commands: 
+  login:
+     description: "Create a PocketMineAuth Account. "
+     usage: "/login <password>"
+#  permissions:
