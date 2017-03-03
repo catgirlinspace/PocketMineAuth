@@ -12,6 +12,8 @@
  * License: dog2puppy.mit-license.org
  */
 
+Namespace Dog2puppy\PocketMineAuth;
+
 use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
