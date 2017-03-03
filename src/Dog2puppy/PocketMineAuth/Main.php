@@ -20,7 +20,7 @@ use pocketmine\utils\Config;
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\command\Command
 
-class Dog2puppy\PocketMineAuth\Main extends PluginBase implements Listener
+Class Dog2puppy\PocketMineAuth\Main extends PluginBase implements Listener
 {
     public function onEnable()
     {
