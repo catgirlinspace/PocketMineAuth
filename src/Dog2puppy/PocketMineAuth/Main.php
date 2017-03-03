@@ -17,6 +17,8 @@ Namespace Dog2puppy\PocketMineAuth;
 use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
+use pocketmine\event\player\PlayerJoinEvent;
+use pocketmine\command\Command
 
 class Dog2puppy\PocketMineAuth\Main extends PluginBase implements Listener
 {
@@ -28,4 +30,18 @@ class Dog2puppy\PocketMineAuth\Main extends PluginBase implements Listener
             $config->set('firstrun', false);
         }
     }
+    public function onJoin(PlayerJoinEvent $event) {
+        $event->getPlayer()->sendMessage($config->get('messages')['welcomemessage']);
+    }
+    public function onCommand(Command $command, CommandSender $sender, $label, array $args){
+        switch($command->getName()) {
+            case 'login':
+                
+                break;
+            case 'register':
+                
+                break;
+        }
+    }
+    
 }
