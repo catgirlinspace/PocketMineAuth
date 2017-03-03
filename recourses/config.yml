@@ -1,0 +1,10 @@
+firstrun: true # DO NOT EDIT!! This is used to determine whether or not we need to create new tables. 
+
+mysql: 
+  - host: "localhost"
+  - user: ""
+  - database: ""
+  - password: ""
+  
+customize: 
+   - welcomemessage: "Welcome {player}! Please do /login to login, or /register to register. If you need help, do /help login or /help register"
